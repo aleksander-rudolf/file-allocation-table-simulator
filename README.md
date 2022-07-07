@@ -1,3 +1,7 @@
+# File Allocation Table Simulator
+
+The function fat_check() in fatsim.cpp examines the contents of a file allocation table fat[]. The ends of block chains in the FAT will be represented by ‘-1’. The function should find the longest possible chain terminating on each block containing ‘-1’ in the FAT, and report these lengths. The FAT entries will be represented by N integers. Each number will be an integer in range [-1 .. N-1], where “-1” represents null pointer (or end of chain), and numbers ≥ 0 represent pointers to blocks. The i-th integer will represent the i-th entry in the FAT.
+
 To compile all code, type:
 ```
 $ make
