@@ -6,7 +6,7 @@ To compile all code, type:
 ```
 $ make
 ```
-## Test Files:
+## Test files:
 
 ### `test1.txt`
 ![graph for test1.txt](images/test1.svg "graph for test1.txt")
